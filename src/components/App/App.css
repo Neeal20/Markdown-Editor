@@ -1,0 +1,27 @@
+#root {
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar{
+  height: 100vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #202220;
+}
+
+.notebooks{
+  height: 100%;
+  width: 30%;
+}
+
+.text-container{
+  width: 45%;
+}

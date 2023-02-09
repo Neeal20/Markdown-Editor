@@ -1,0 +1,32 @@
+.text-icons{
+  display: flex;
+  align-items: left;
+  text-align: left;
+  padding: 0 1rem;
+  border-bottom: 1px solid white;
+}
+
+.text-icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  margin-right: 0.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: .2rem;
+  color: grey;
+  cursor: pointer;
+}
+
+.text-icon:hover{
+  background-color: var(--color-folder);
+  border-radius: 50%;
+  color: black;
+}
+
+.text-icon:last-child{
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,29 @@
+.subfolder {
+    justify-content: space-around;
+    background-color: #212325;
+    width: 100%;
+    
+    &-options{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      padding: 0.4rem 1.5rem;
+    }
+
+    &-title{
+      padding-left: 0.2rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    &-close{
+      display: none;
+    }
+}
+
+.feather-folder {
+  cursor: pointer;
+  padding-right: 0.4rem;
+  color: var(--color-folder);
+}

@@ -1,0 +1,43 @@
+.folders{
+  width: 100%;
+}
+
+.folder{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary);
+    
+    &-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0.1rem;
+        font-size: 0.9rem;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+.close{
+    display: none;
+}
+
+.feather-folder{
+    cursor: pointer;
+}
+
+.feather-plus{
+    cursor: pointer;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    color: var(--color-folder);
+}
